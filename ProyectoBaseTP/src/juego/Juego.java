@@ -1,6 +1,6 @@
 package juego;
 
-
+import java.awt.*;
 import entorno.Entorno;
 import entorno.InterfaceJuego;
 
@@ -32,6 +32,8 @@ public class Juego extends InterfaceJuego
 	 */
 	public void tick()
 	{
+		this.entorno.dibujarRectangulo(400, 300, 800, 600, 0, Color.cyan);
+		this.entorno.dibujarRectangulo(400, 500, 800, 200, 0, Color.green);
 		// Procesamiento de un instante de tiempo
 		// ...
 		
